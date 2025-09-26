@@ -5,13 +5,13 @@ class AdressEntity {
   final String suite;
   final String city;
   final String zipcode;
-  final GeoEntity geoEntity;
+  final GeoEntity geo;
 
   AdressEntity({
     required this.street,
     required this.suite,
     required this.city,
     required this.zipcode,
-    required this.geoEntity,
+    required this.geo,
   });
 }

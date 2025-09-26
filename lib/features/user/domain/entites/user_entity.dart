@@ -4,12 +4,12 @@ class UserEntity {
   final String name;
   final String phone;
   final String email;
-  final AdressEntity adressEntity;
+  final AdressEntity adress;
 
   UserEntity({
     required this.name,
     required this.phone,
     required this.email,
-    required this.adressEntity,
+    required this.adress,
   });
 }
